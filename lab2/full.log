@@ -1,0 +1,185 @@
+	Warning:  warning, (EE) error, (NI) not implemented, (??) unknown.
+[   124.710] Warning:  Falling back to old probe method for fbdev
+[   124.847] Warning:  VESA(0): Unable to estimate virtual size
+[   124.847] Warning:  VESA(0): No valid modes left. Trying less strict filter...
+[   124.847] Warning:  VESA(0): Unable to estimate virtual size
+	(++) from command line, (!!) notice, Information:  informational,
+[   124.597] Information:  Loader magic: 0x822c540
+[   124.597] Information:  Module ABI versions:
+[   124.604] Information:  The server relies on HAL to provide the list of input devices.
+[   124.604] Information:  LoadModule: "extmod"
+[   124.606] Information:  Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[   124.620] Information:  Module extmod: vendor="X.Org Foundation"
+[   124.620] Information:  Loading extension SELinux
+[   124.620] Information:  Loading extension MIT-SCREEN-SAVER
+[   124.620] Information:  Loading extension XFree86-VidModeExtension
+[   124.620] Information:  Loading extension XFree86-DGA
+[   124.620] Information:  Loading extension DPMS
+[   124.620] Information:  Loading extension XVideo
+[   124.620] Information:  Loading extension XVideo-MotionCompensation
+[   124.620] Information:  Loading extension X-Resource
+[   124.620] Information:  LoadModule: "dbe"
+[   124.620] Information:  Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[   124.621] Information:  Module dbe: vendor="X.Org Foundation"
+[   124.621] Information:  Loading extension DOUBLE-BUFFER
+[   124.621] Information:  LoadModule: "glx"
+[   124.621] Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   124.624] Information:  Module glx: vendor="X.Org Foundation"
+[   124.624] Information:  Loading extension GLX
+[   124.624] Information:  LoadModule: "record"
+[   124.624] Information:  Loading /usr/lib/xorg/modules/extensions/librecord.so
+[   124.625] Information:  Module record: vendor="X.Org Foundation"
+[   124.625] Information:  Loading extension RECORD
+[   124.625] Information:  LoadModule: "dri"
+[   124.625] Information:  Loading /usr/lib/xorg/modules/extensions/libdri.so
+[   124.633] Information:  Module dri: vendor="X.Org Foundation"
+[   124.633] Information:  Loading extension XFree86-DRI
+[   124.633] Information:  LoadModule: "dri2"
+[   124.633] Information:  Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[   124.634] Information:  Module dri2: vendor="X.Org Foundation"
+[   124.634] Information:  Loading extension DRI2
+[   124.634] Information:  LoadModule: "vesa"
+[   124.634] Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[   124.657] Information:  Module vesa: vendor="X.Org Foundation"
+[   124.657] Information:  LoadModule: "fbdev"
+[   124.657] Information:  Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[   124.669] Information:  Module fbdev: vendor="X.Org Foundation"
+[   124.669] Information:  VESA: driver for VESA chipsets: vesa
+[   124.669] Information:  FBDEV: driver for framebuffer: fbdev
+[   124.710] Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[   124.710] Information:  Loading sub module "fbdevhw"
+[   124.710] Information:  LoadModule: "fbdevhw"
+[   124.710] Information:  Loading /usr/lib/xorg/modules/libfbdevhw.so
+[   124.725] Information:  Module fbdevhw: vendor="X.Org Foundation"
+[   124.739] Information:  Loading sub module "vbe"
+[   124.739] Information:  LoadModule: "vbe"
+[   124.739] Information:  Loading /usr/lib/xorg/modules/libvbe.so
+[   124.740] Information:  Module vbe: vendor="X.Org Foundation"
+[   124.740] Information:  Loading sub module "int10"
+[   124.740] Information:  LoadModule: "int10"
+[   124.740] Information:  Loading /usr/lib/xorg/modules/libint10.so
+[   124.741] Information:  Module int10: vendor="X.Org Foundation"
+[   124.741] Information:  VESA(0): initializing int10
+[   124.741] Information:  VESA(0): Primary V_BIOS segment is: 0xc000
+[   124.743] Information:  VESA(0): VESA BIOS detected
+[   124.743] Information:  VESA(0): VESA VBE Version 2.0
+[   124.743] Information:  VESA(0): VESA VBE Total Mem: 16384 kB
+[   124.743] Information:  VESA(0): VESA VBE OEM: VirtualBox VESA BIOS
+[   124.743] Information:  VESA(0): VESA VBE OEM Software Rev: 0.3
+[   124.743] Information:  VESA(0): VESA VBE OEM Vendor: Oracle Corporation
+[   124.743] Information:  VESA(0): VESA VBE OEM Product: Oracle VM VirtualBox VBE Adapter
+[   124.743] Information:  VESA(0): VESA VBE OEM Product Rev: Oracle VM VirtualBox Version 5.2.14
+[   124.792] Information:  VESA(0): Creating default Display subsection in Screen section
+[   124.792] Information:  Loading sub module "ddc"
+[   124.792] Information:  LoadModule: "ddc"
+[   124.792] Information:  Module "ddc" already built-in
+[   124.792] Information:  VESA(0): VESA VBE DDC not supported
+[   124.792] Information:  VESA(0): VESA VBE PanelID invalid
+[   124.792] Information:  VESA(0): Searching for matching VESA mode(s):
+[   124.847] Information:  VESA(0): Total Memory: 256 64KB banks (16384kB)
+[   124.847] Information:  VESA(0): <default monitor>: Using default hsync range of 31.50-48.00 kHz
+[   124.847] Information:  VESA(0): <default monitor>: Using default vrefresh range of 50.00-70.00 Hz
+[   124.847] Information:  VESA(0): <default monitor>: Using default maximum pixel clock of 65.00 MHz
+[   124.847] Information:  VESA(0): Not using built-in mode "1600x1200" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "1280x1024" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "1152x864" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "1024x768" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "800x600" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "640x480" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "640x400" (no mode of this name)
+[   124.847] Information:  VESA(0): Not using built-in mode "320x200" (no mode of this name)
+[   124.847] Information:  VESA(0): <default monitor>: Using hsync range of 31.50-48.00 kHz
+[   124.847] Information:  VESA(0): <default monitor>: Using vrefresh range of 50.00-70.00 Hz
+[   124.847] Information:  VESA(0): <default monitor>: Using maximum pixel clock of 65.00 MHz
+[   124.847] Information:  VESA(0): Not using built-in mode "1600x1200" (hsync out of range)
+[   124.847] Information:  VESA(0): Not using built-in mode "1280x1024" (hsync out of range)
+[   124.847] Information:  VESA(0): Not using built-in mode "1152x864" (hsync out of range)
+[   124.847] Information:  VESA(0): Not using built-in mode "640x400" (hsync out of range)
+[   124.847] Information:  VESA(0): Not using built-in mode "320x200" (illegal horizontal timings)
+[   124.847] Information:  VESA(0): Attempting to use 60Hz refresh for mode "1024x768" (144)
+[   124.847] Information:  VESA(0): Attempting to use 60Hz refresh for mode "800x600" (143)
+[   124.847] Information:  VESA(0): Attempting to use 60Hz refresh for mode "640x480" (142)
+[   124.847] Information:  Loading sub module "shadow"
+[   124.847] Information:  LoadModule: "shadow"
+[   124.847] Information:  Loading /usr/lib/xorg/modules/libshadow.so
+[   124.848] Information:  Module shadow: vendor="X.Org Foundation"
+[   124.848] Information:  Loading sub module "fb"
+[   124.848] Information:  LoadModule: "fb"
+[   124.848] Information:  Loading /usr/lib/xorg/modules/libfb.so
+[   124.849] Information:  Module fb: vendor="X.Org Foundation"
+[   124.849] Information:  UnloadModule: "fbdev"
+[   124.849] Information:  Unloading fbdev
+[   124.849] Information:  UnloadModule: "fbdevhw"
+[   124.849] Information:  Unloading fbdevhw
+[   124.849] Information:  Loading sub module "int10"
+[   124.849] Information:  LoadModule: "int10"
+[   124.849] Information:  Loading /usr/lib/xorg/modules/libint10.so
+[   124.849] Information:  Module int10: vendor="X.Org Foundation"
+[   124.850] Information:  VESA(0): initializing int10
+[   124.850] Information:  VESA(0): Primary V_BIOS segment is: 0xc000
+[   124.852] Information:  VESA(0): VESA BIOS detected
+[   124.852] Information:  VESA(0): VESA VBE Version 2.0
+[   124.852] Information:  VESA(0): VESA VBE Total Mem: 16384 kB
+[   124.852] Information:  VESA(0): VESA VBE OEM: VirtualBox VESA BIOS
+[   124.852] Information:  VESA(0): VESA VBE OEM Software Rev: 0.3
+[   124.852] Information:  VESA(0): VESA VBE OEM Vendor: Oracle Corporation
+[   124.852] Information:  VESA(0): VESA VBE OEM Product: Oracle VM VirtualBox VBE Adapter
+[   124.852] Information:  VESA(0): VESA VBE OEM Product Rev: Oracle VM VirtualBox Version 5.2.14
+[   124.853] Information:  VESA(0): virtual address = 0xb6649000,
+[   124.889] Information:  VESA(0): Setting up VESA Mode 0x144 (1024x768)
+[   124.919] Information:  Initializing built-in extension Generic Event Extension
+[   124.919] Information:  Initializing built-in extension SHAPE
+[   124.919] Information:  Initializing built-in extension MIT-SHM
+[   124.919] Information:  Initializing built-in extension XInputExtension
+[   124.919] Information:  Initializing built-in extension XTEST
+[   124.919] Information:  Initializing built-in extension BIG-REQUESTS
+[   124.919] Information:  Initializing built-in extension SYNC
+[   124.919] Information:  Initializing built-in extension XKEYBOARD
+[   124.919] Information:  Initializing built-in extension XC-MISC
+[   124.919] Information:  Initializing built-in extension XINERAMA
+[   124.919] Information:  Initializing built-in extension XFIXES
+[   124.919] Information:  Initializing built-in extension RENDER
+[   124.919] Information:  Initializing built-in extension RANDR
+[   124.919] Information:  Initializing built-in extension COMPOSITE
+[   124.919] Information:  Initializing built-in extension DAMAGE
+[   124.921] Information:  SELinux: Disabled by boolean
+[   124.927] Information:  AIGLX: Screen 0 is not DRI2 capable
+[   124.927] Information:  AIGLX: Screen 0 is not DRI capable
+[   125.053] Information:  AIGLX: Loaded and initialized /usr/lib/dri/swrast_dri.so
+[   125.053] Information:  GLX: Initialized DRISWRAST GL provider for screen 0
+[   125.861] Information:  config/hal: Adding input device ImExPS/2 Generic Explorer Mouse
+[   125.861] Information:  LoadModule: "evdev"
+[   125.861] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.876] Information:  Module evdev: vendor="X.Org Foundation"
+[   125.876] Information:  Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   125.876] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.876] Information:  ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   125.876] Information:  ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   125.876] Information:  XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE)
+[   125.876] Information:  ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   125.881] Information:  config/hal: Adding input device AT Translated Set 2 keyboard
+[   125.881] Information:  Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   125.881] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.881] Information:  AT Translated Set 2 keyboard: Configuring as keyboard
+[   125.881] Information:  XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD)
+[   125.922] Information:  config/hal: Adding input device Video Bus
+[   125.922] Information:  Using input driver 'evdev' for 'Video Bus'
+[   125.922] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.922] Information:  Video Bus: Configuring as keyboard
+[   125.922] Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD)
+[   125.926] Information:  config/hal: Adding input device Sleep Button
+[   125.926] Information:  Using input driver 'evdev' for 'Sleep Button'
+[   125.926] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.926] Information:  Sleep Button: Configuring as keyboard
+[   125.926] Information:  XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD)
+[   125.929] Information:  config/hal: Adding input device Power Button
+[   125.929] Information:  Using input driver 'evdev' for 'Power Button'
+[   125.929] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.929] Information:  Power Button: Configuring as keyboard
+[   125.929] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+[   125.932] Information:  config/hal: Adding input device Macintosh mouse button emulation
+[   125.932] Information:  Using input driver 'evdev' for 'Macintosh mouse button emulation'
+[   125.932] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   125.932] Information:  Macintosh mouse button emulation: Configuring as mouse
+[   125.932] Information:  XINPUT: Adding extended input device "Macintosh mouse button emulation" (type: MOUSE)
+[   125.932] Information:  Macintosh mouse button emulation: initialized for relative axes.

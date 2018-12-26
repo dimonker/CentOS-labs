@@ -1,0 +1,78 @@
+ACPI: RSDP 000e0000 00024 (v02 VBOX  )
+ACPI: XSDT 3fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+ACPI: FACP 3fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+ACPI: DSDT 3fff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+ACPI: FACS 3fff0200 00040
+ACPI: APIC 3fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+ACPI: SSDT 3fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+ACPI: Local APIC address 0xfee00000
+ACPI: PM-Timer IO Port: 0x4008
+ACPI: Local APIC address 0xfee00000
+ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+ACPI: IRQ0 used by override.
+ACPI: IRQ2 used by override.
+ACPI: IRQ9 used by override.
+ACPI: Core revision 20090903
+ACPI: bus type pci registered
+ACPI: EC: Look up EC in DSDT
+ACPI: Executed 1 blocks of module-level executable AML code
+ACPI: Interpreter enabled
+ACPI: (supports S0 S5)
+ACPI: Using IOAPIC for interrupt routing
+ACPI: No dock devices found.
+ACPI: PCI Root Bridge [PCI0] (0000:00)
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+ACPI: bus type pnp registered
+ACPI: ACPI bus type pnp unregistered
+ACPI: AC Adapter [AC] (off-line)
+ACPI: Power Button [PWRF]
+ACPI: Sleep Button [SLPF]
+ACPI: acpi_idle registered with cpuidle
+ACPI: Battery Slot [BAT0] (battery present)
+ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+ACPI: RSDP 000e0000 00024 (v02 VBOX  )
+ACPI: XSDT 3fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+ACPI: FACP 3fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+ACPI: DSDT 3fff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+ACPI: FACS 3fff0200 00040
+ACPI: APIC 3fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+ACPI: SSDT 3fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+ACPI: Local APIC address 0xfee00000
+ACPI: PM-Timer IO Port: 0x4008
+ACPI: Local APIC address 0xfee00000
+ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+ACPI: IRQ0 used by override.
+ACPI: IRQ2 used by override.
+ACPI: IRQ9 used by override.
+ACPI: Core revision 20090903
+ACPI: bus type pci registered
+ACPI: EC: Look up EC in DSDT
+ACPI: Executed 1 blocks of module-level executable AML code
+ACPI: Interpreter enabled
+ACPI: (supports S0 S5)
+ACPI: Using IOAPIC for interrupt routing
+ACPI: No dock devices found.
+ACPI: PCI Root Bridge [PCI0] (0000:00)
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+ACPI: bus type pnp registered
+ACPI: ACPI bus type pnp unregistered
+ACPI: AC Adapter [AC] (on-line)
+ACPI: Power Button [PWRF]
+ACPI: Sleep Button [SLPF]
+ACPI: acpi_idle registered with cpuidle
+ACPI: Battery Slot [BAT0] (battery present)
+ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
