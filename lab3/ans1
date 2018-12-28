@@ -1,0 +1,48 @@
+1705:-bash
+1728:/bin/sh /usr/bin/startx
+1744:xinit /etc/X11/xinit/xinitrc -- /usr/bin/X :0 -auth /home/user/.serverauth.1728
+1752:/usr/bin/ck-xinit-session /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+1759:dbus-launch --sh-syntax --exit-with-session
+1760:/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+1771:/usr/bin/gnome-session
+1772:/usr/bin/ssh-agent /etc/X11/xinit/Xclients
+1784:/usr/libexec/gconfd-2
+1803:/usr/libexec/gnome-settings-daemon
+1806:gnome-keyring-daemon --start
+1811:/usr/libexec/gvfsd
+1817:metacity
+1822:gnome-panel
+1824:/usr/bin/pulseaudio --start --log-target=syslog
+1833:/usr/libexec/pulse/gconf-helper
+1834:nautilus
+1836:/usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=18
+1844:/usr/libexec/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=18
+1846:/usr/libexec/trashapplet --oaf-activate-iid=OAFIID:GNOME_Panel_TrashApplet_Factory --oaf-ior-fd=24
+1848:/usr/libexec/gvfs-gdu-volume-monitor
+1851:/usr/libexec/gdu-notification-daemon
+1853:/usr/libexec/polkit-gnome-authentication-agent-1
+1856:/usr/sbin/restorecond -u
+1864:nm-applet --sm-disable
+1866:/usr/libexec/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+1868:gnome-power-manager
+1869:bluetooth-applet
+1870:gnome-volume-control-applet
+1872:/usr/libexec/gvfs-afc-volume-monitor
+1873:gpk-update-icon
+1882:gnome-screensaver
+1885:/usr/libexec/gvfs-gphoto2-volume-monitor
+1900:/usr/libexec/gdm-user-switch-applet --oaf-activate-iid=OAFIID:GNOME_FastUserSwitchApplet_Factory --oaf-ior-fd=19
+1901:/usr/libexec/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=28
+1902:/usr/libexec/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=34
+1916:/usr/libexec/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+1919:/usr/libexec/gvfsd-computer --spawner :1.8 /org/gtk/gvfs/exec_spaw/2
+2132:/usr/bin/gnome-terminal -x /bin/sh -c cd '/home/user/lab3' && exec $SHELL
+2133:gnome-pty-helper
+2134:/bin/bash
+2157:/usr/libexec/gvfsd-metadata
+11759:gedit /home/user/lab3/1
+11764:/bin/bash
+11765:ps -u user -o pid,command
+11766:tail -n +2
+11767:sed -r s/\s*([0-9]+)\s(.+)$/\1:\2/
+48
